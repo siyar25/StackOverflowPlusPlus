@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@700&family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+.App {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: large;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+input, textarea {
+    margin: 0;
+    border: 0;
+    font-size: large;
+
+    background-color: var(--background-accented);
+    border-radius: 5px;
+    color: var(--foreground-color);
+}
+
+textarea {
+    font-family: unset;
+    resize: none;
+}
+
+button {
+    border-radius: 5px;
+    background-color: var(--accent-color);
+    border: 0;
+    font-size: large;
+    padding: .5rem;
+}
+
+b {
+    font-weight: 400;
+}
+
+.emoji {
+    font-family: 'Noto Emoji', sans-serif;
+    font-weight: 700;
+    border-radius: 20%;
+    padding: .2rem;
+}

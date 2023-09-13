@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:center;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    flex-grow: 1;
+    text-align: left;
+    font-size: 3.5vw;
+    font-weight: 400;
+    user-select: none;
+}
+
+header>* {
+    margin: .5rem;
+}

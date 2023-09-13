@@ -1,0 +1,25 @@
+.answer-card {
+  border: 1px solid var(--accent-color);
+  margin: 0.5rem;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.answer-info {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid var(--accent-color);
+  padding: 1rem;
+}
+
+.question-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 1rem;
+}

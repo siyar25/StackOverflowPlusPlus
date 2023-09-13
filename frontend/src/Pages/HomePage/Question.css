@@ -1,0 +1,59 @@
+.card {
+    border: 2px solid var(--accent-color);
+    margin: .5rem;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    transition: 500ms;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 500ms;
+}
+
+.card:focus-within {
+    transform: scale(1.1);
+    transition: 500ms;
+}
+
+.username {
+    align-self: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 6rem;
+}
+
+.question {
+    flex-grow: 1;
+    border-left: 1px solid var(--accent-color);
+    padding: 0rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 500ms;
+}
+
+.question:hover {
+
+    transition: 500ms;
+}
+
+.question-infos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: .3rem;
+}
+
+.question-infos>p {
+    margin: .5rem;
+    flex-grow: 1;
+}
+

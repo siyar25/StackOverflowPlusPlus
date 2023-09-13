@@ -1,0 +1,82 @@
+.letter-avatar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+
+  height: 40px;
+  width: 40px;
+
+  background-color: var(--accent-color);
+
+  padding: 0.5rem;
+  border-radius: 100%;
+  margin-bottom: 0.5rem;
+
+  user-select: none;
+}
+
+.letter-avatar-big {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+
+  height: 160px;
+  width: 160px;
+
+  background-color: var(--accent-color);
+
+  padding: 0.5rem;
+  border-radius: 100%;
+  margin-bottom: 0.5rem;
+  user-select: none;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 15px;
+  position: absolute;
+  left: 105%;
+  z-index: 1;
+}
+
+.tooltipBig {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipBig .tooltiptext {
+  visibility: hidden;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.letter-avatar-big #isAdmin {
+  position: absolute;
+  font-size: 40%;
+  left: 67%;
+  top: 53%;
+}
+
+.letter-avatar #isAdmin {
+  position: absolute;
+  font-size: 50%;
+  left: 67%;
+  top: 53%;
+}

@@ -1,0 +1,50 @@
+#upVote-green {
+  cursor: pointer;
+  width: 22px;
+  transition: 500ms;
+}
+
+#downVote-red {
+  cursor: pointer;
+  width: 22px;
+  transition: 500ms;
+}
+
+#upVote {
+  cursor: pointer;
+  filter: grayscale(1);
+  width: 22px;
+  transition: 500ms;
+}
+
+#upVote:hover {
+  filter: grayscale(0.2);
+  transition: 500ms;
+  transform: translateY(-5px);
+}
+
+#upVote:active {
+    transition: 0ms;
+    transform: translateY(-15px) scale(1.3);
+}
+
+
+#downVote {
+  cursor: pointer;
+  filter: grayscale(1);
+  width: 22px;
+  transition: 500ms;
+}
+
+#downVote:hover {
+  filter: grayscale(0.2);
+  transition: 500ms;
+  transform: translateY(-5px);
+
+}
+
+
+#downVote:active {
+    transition: 0ms;
+    transform: translateY(-15px) scale(1.3);
+}

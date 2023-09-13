@@ -1,0 +1,26 @@
+.new-q-form>input, .new-q-form>textarea {
+    width: calc(100% - 1rem);
+    padding: .5rem;
+}
+
+.new-q-form>input {
+    padding: .5rem;
+}
+
+.new-q-form>label {
+    text-align: left;
+    width: 100%;
+    margin: 1rem 0 .5rem 0;
+}
+
+.new-q-form>button {
+    width: 100%;
+
+    margin-top: 1rem;
+}
+
+.new-q-form {
+    border: 1px solid var(--accent-color);
+    padding: 1rem 2rem 2rem 2rem;
+    border-radius: 20px;
+}

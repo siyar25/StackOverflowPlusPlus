@@ -1,0 +1,56 @@
+.clickable {
+  cursor: pointer;
+}
+
+.detailed > p {
+  text-align: left;
+}
+
+.card.answer {
+  margin-left: 6rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: flex-start;
+}
+.answer.user {
+  font-style: italic;
+}
+
+.question.detailed {
+  padding: 1rem;
+}
+
+.questionpage-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.card.answer > p {
+  text-align: left;
+}
+
+.card.answer > textarea {
+  width: calc(100% - 1rem);
+  margin: 1rem 0 1rem 0;
+  padding: 0.5rem;
+}
+
+.answer.infos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+  margin-top: 1rem;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.answer.infos > * {
+  flex-grow: 1;
+}
+
+.flex-end {
+  justify-self: flex-end;
+}
